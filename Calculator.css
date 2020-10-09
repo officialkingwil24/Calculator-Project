@@ -1,0 +1,85 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url('https://www.purdue.edu/research/dimensions/wp-content/uploads/2018/11/iStock-914788012.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+}
+
+.text{
+    color: blue;
+    max-height: 55px;
+    border-bottom: 3px solid black;
+}
+
+#calculator{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    width: 300px;
+    background-image: url('https://64.media.tumblr.com/6e584173a8d542837306e8767236d66d/tumblr_nh60i6IWSW1qmsnvfo1_500.jpg');
+    background-size: cover;
+    box-shadow: 1px 1px 1px 1px black;
+    border: solid;
+}
+  
+#screen{
+    width: 80%;
+    height: 60px;
+    border: solid;
+    border-radius: 10px;
+    justify-content: left;
+    flex-direction: row-reverse;
+    align-items: center;
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+  
+.row{
+    display: flex;
+    justify-content: space-around;
+    
+    width: 100%;
+    height: 100%;
+    background-image: url('https://img.freepik.com/free-photo/galaxy-scene_1048-5105.jpg?size=626&ext=jpg');
+    background-size: 100%;
+    margin: 10px;
+    border: solid;
+}
+  
+.column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    width: 50%;
+    height: 50%;
+    margin: 10px;
+}
+
+button{
+    cursor: pointer;
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+    box-shadow: 1px 1px 1px 1px black;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-image: url('https://static9.depositphotos.com/1000123/1183/i/450/depositphotos_11831225-stock-photo-deep-space-abstract-natural-backgrounds.jpg');
+    max-height: 50px;
+    transform: rotate(360deg);
+    transition: all .6s;
+}
