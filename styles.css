@@ -1,7 +1,7 @@
 body{
     padding: 0;
     margin: 0;
-    background-image: url('https://images.theconversation.com/files/223749/original/file-20180619-126537-5l632j.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop');
+    background-image: url('https://images.theconversation.com/files/233003/original/file-20180822-149484-cs44to.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -15,7 +15,7 @@ body{
 }
 
 .text{
-    color: blue;
+    color: skyblue;
     max-height: 55px;
     border-bottom: 3px solid black;
 }
